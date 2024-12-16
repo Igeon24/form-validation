@@ -7,6 +7,77 @@
     <title>Form Validation</title>
 </head>
 <body>
+    <div class="main-cont">
+        <div class="side-img">
+            <div class="top-text-container">
+                <img class="logo" src="./assets/odin-lined.png" alt="">
+                <p class="top-text">ODIN</p>
+            </div>
+            <p class="bottom-text">Photo by <a href="#">Halie West</a> on <a href="#">Unsplash</a></p>
+
+        </div>
+        <div class="form-cont">
+            <div class="descriptions-container">
+
+                <p class="description">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <span>now</span>  and get started.</p>
+                <p class="description">You <span>know</span> you want to.</p>
+            </div>
+
+            <div class="form">
+                <p class="do-it">Let's do this!</p>
+                <form action="">
+
+                    <div class="all-input">
+
+                        <div class="input-container">
+                            <label for="first-name">First Name</label>
+                            <input name="first-name" id="first-name" type="text" required>
+                            <p class="error first-name">First Name is required*</p>
+                        </div>
+                        <div class="input-container">
+                            <label for="last-name">Last Name</label>
+                            <input name="last-name" id="last-name" type="text" required>
+                            <p class="error last-name">Last Name is required*</p>
+                        </div>
+    
+                        <div class="input-container">
+                            <label for="email">Email</label>
+                            <input name="email" id="email" type="email" required>
+                            <p class="error email">Email is required*</p>
+                        </div>
+    
+                        <div class="input-container">
+                            <label for="phone">Phone Number</label>
+                            <input name="phone" id="phone" type="tel" required>
+                            <p class="error phone">Phone Number is required*</p>
+                        </div>
+    
+                        <div class="input-container">
+                            <label for="password">Password</label>
+                            <input 
+                            type="password" 
+                            id="password" 
+                            name="password" 
+                            pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}" 
+                            title="Password must contain at least 8 characters, including one uppercase letter, one lowercase letter, one number, and one special character (@$!%*?&)" 
+                            required>
+                            <p class="error password">Password must contain at least 8 characters, including one uppercase letter, one lowercase letter, one number, and one special character (@$!%*?&)*</p>
+                        </div>
+    
+                        <div class="input-container">
+                            <label for="cpassword">Confirm Password</label>
+                            <input name="cpassword" id="cpassword" type="password" required>
+                            <p class="error cpassword">Phone Number is required*</p>
+                        </div>
+                    </div>
+
+                    <div class="shadow"></div>
+                    <button class="submit-btn" type="submit">Create Account</button>
+                </form>
+                <p class="end">Already have an account? <a href="#">Log in</a></p>
+            </div>
+        </div>
+    </div>
     
     <script src="./script.js"></script>
 </body>

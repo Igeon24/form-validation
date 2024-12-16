@@ -1,0 +1,179 @@
+@font-face {
+    font-family: "Norse Bold";
+    src: url("./assets/Norse-Bold.otf");
+}
+
+body{
+    margin: 0;
+}
+
+.main-cont{
+    display: flex;
+}
+
+.side-img{
+    background: url("./assets/halie-west-25xggax4bSA-unsplash.jpg");
+    width: 39%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+
+}
+
+.top-text{
+    font-family: "Norse Bold", sans-serif;
+    color: white;
+    font-size: 5.5em;
+    display: flex;
+}
+
+.top-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.542);
+    height: 150px;
+    position: relative;
+    bottom: 46%;
+}
+
+.bottom-text{
+    text-align: center;
+}
+
+span{
+    font-style: italic;
+}
+
+.form-cont{
+    box-sizing: border-box;
+    /* font-family: 'Roboto'; */
+    /* font-weight: bold; */
+    /* width: 61%; */
+    flex: 1;
+}
+
+.logo{
+    width: 90px;
+}
+
+.bottom-text,a{
+    color: white;
+    /* flex: 1; */
+}
+
+.descriptions-container{
+    width: 100%;
+    /* margin-top: 100px; */
+    padding-left: 10px;
+    padding: 150px  10px 48px;
+    background-color: rgb(244, 240, 240);
+    box-sizing: border-box;
+}
+
+.description{
+    font-size: 1.5em;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.do-it{
+    font-size: 2em;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: rgb(60, 56, 56);
+}
+
+label{
+    font-family: 'Roboto';
+    font-weight: 600;
+    color: rgb(74, 71, 71);
+    font-size: 1em;
+}
+
+.error{
+    color: red;
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+
+/* input:invalid{
+    border: 2px solid red;
+} */
+
+input{
+    width: 60%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 0.8em;
+    padding: 3px 10px;
+    font-family: "Roboto";
+}
+
+input:focus{
+    border: none;
+    outline: 1px solid blue;
+    box-shadow: 4px 4px 4px rgb(162, 162, 162);
+}
+
+.error.password{
+    font-size: 0.8em;
+    width: 80%;
+    word-wrap: break-word;
+    /* visibility: hidden; */
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.all-input{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shadow{
+    box-shadow: 0 4px 2px -2px gray;
+    width: 100%;
+    height: 10px;
+    
+}
+
+
+
+
+.do-it,.all-input,.submit-btn,.end{
+    margin-left: 50px;
+}
+
+.submit-btn{
+    margin-top: 40px;
+    background-color: #596D48;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 4px 4px 4px rgb(198, 196, 196);
+
+}
+
+.submit-btn:hover{
+    background-color: #677e54;
+    cursor: pointer;
+}
+
+.end{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.end a{
+    color: #596D48;
+    font-weight: 600;
+    text-decoration: none;
+}
