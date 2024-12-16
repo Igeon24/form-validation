@@ -162,6 +162,10 @@ input:focus{
 
 }
 
+.error{
+    visibility: hidden;
+}
+
 .submit-btn:hover{
     background-color: #677e54;
     cursor: pointer;
@@ -177,3 +181,9 @@ input:focus{
     font-weight: 600;
     text-decoration: none;
 }
+
+
+.invalid{
+    visibility: visible;
+}
+
